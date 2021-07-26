@@ -1,10 +1,10 @@
 string1 = 'trace'
 TraceCounter = 0
 
-# opening a text file
+# accessing file
 file1 = open("ciscofile.log", "r")
 
-# read file content
+# reading file content
 readfile = file1.read()
 
 # seeing how many times "trace" is in the file
@@ -19,5 +19,5 @@ countTrace()
 
 print(TraceCounter)
 
-# closing a file
+# closing file
 file1.close()
